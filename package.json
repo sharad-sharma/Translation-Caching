@@ -1,0 +1,23 @@
+{
+  "name": "translation-caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "translate": "node translate_test.js ./token.json"
+  },
+  "author": "Sharad Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "supertest": "^6.1.6"
+  }
+}
