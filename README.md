@@ -17,6 +17,7 @@ After installing the project
   * Create KEYS and download JSON file of tokens.
   * Paste that token file in the project folder.
   * Specify the location of token.json in translation.js on line no. 5.
+  * Create empty folder "data" in the root directory
 
 
 ## Documentation
